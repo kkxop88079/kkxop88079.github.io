@@ -3,10 +3,11 @@
 }
 .index-img{
     background-image: url("../images/index-img.jpg");
-    width:1080px;
-    height: 645px;
-    background-size: contain;
+    width:100%;
+    height:100vh;
+    background-size: cover;
     background-repeat: no-repeat;
+    background-position:center;
 }
 .margin-top{
     margin-top: 30px;
