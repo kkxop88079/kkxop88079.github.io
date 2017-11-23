@@ -35,3 +35,7 @@
 .imgb6{
     background-image: url("../images/new-images/b (6).jpg");
 }
+
+.icontainer:hover .img1{
+    background-color: rgba(248, 18, 18, 0.329);
+}
