@@ -10,6 +10,16 @@
     <link rel="stylesheet" href="css/lightbox.min.css">
     <link rel="stylesheet" href="css/img.css">
     <link rel="stylesheet" href="css/style1.css">
+    <!-- tab -->
+    <link rel="stylesheet" type="text/css" href="css/tab/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="css/tab/demo.css" />
+    <link rel="stylesheet" type="text/css" href="css/tab/tabs.css" />
+    <link rel="stylesheet" type="text/css" href="css/tab/tabstyles.css" />
+    <link rel="stylesheet" href="css/tab/tab.css">
+    <link rel="stylesheet" href="css/tab/owl.carousel.css">
+    <link rel="stylesheet" href="css/tab/owl.theme.default.css">
+    <script src="js/modernizr.custom.js"></script>
+    <!--  -->
 </head>
 <body>
    <!--nav-->
@@ -180,7 +190,70 @@
             <span class="m-auto span-text">主題探索</span>
         </div>
     </div>  
-
+    <div class="container margin-top">
+            <section>
+                    <div class="tabs tabs-style-line">
+                        <nav>
+                            <ul>
+                                <li><a href="#section-line-1">
+                                        <div class="tab-div"><img class="img" src="/images/icon/icon1.png" alt="" width="90" height="90"></div>
+                                        <div class="tab-div"><p>觀光</p></div>
+                                    </a>
+                                </li>
+                                <li><a href="#section-line-1">
+                                        <div class="tab-div"><img class="img" src="/images/icon/icon2.png" alt="" width="90" height="90"></div>
+                                        <div class="tab-div"><p>水上</p></div></a>
+                                </li>
+                                <li><a href="#section-line-1">
+                                        <div class="tab-div"><img class="img" src="/images/icon/icon3.png" alt="" width="90" height="90"></div>
+                                        <div class="tab-div"><p>夜遊</p></div>
+                                    </a>
+                                </li>
+                                <li><a href="#section-line-1">
+                                        <div class="tab-div"><img class="img" src="/images/icon/icon4.png" alt="" width="90" height="90"></div>
+                                        <div class="tab-div"><p>文藝</p></div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <div class="content-wrap">
+                            <section id="section-line-1">
+                                <div class="owl-carousel">
+                                    <div class="image-box image1">  </div>
+                                    <div class="image-box image2">  </div>
+                                    <div class="image-box image3">  </div>
+                                    <div class="image-box image4">  </div>
+                                </div>
+                            </section>
+                            <section id="section-line-1">
+                                <div class="owl-carousel">
+                                    <div class="image-box image2">  </div>
+                                    <div class="image-box image3">  </div>
+                                    <div class="image-box image4">  </div>
+                                    <div class="image-box image4">  </div>
+                                </div>
+                            </section>
+                            <section id="section-line-1">
+                                <div class="owl-carousel">
+                                    <div class="image-box image4">  </div>
+                                    <div class="image-box image3">  </div>
+                                    <div class="image-box image2">  </div>
+                                    <div class="image-box image1">  </div>
+                                </div>
+                            </section>
+                            <section id="section-line-1">
+                                <div class="owl-carousel">
+                                    <div class="image-box image3">  </div>
+                                    <div class="image-box image2">  </div>
+                                    <div class="image-box image1">  </div>
+                                    <div class="image-box image4">  </div>
+                                </div>
+                            </section>
+                            <section id="section-line-1"><p>5</p></section>
+                        </div><!-- /content -->
+                    </div><!-- /tabs -->
+                </section>
+    </div>
 
     
 
@@ -189,6 +262,34 @@
    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
    <script src="js/bootstrap.min.js"></script>
    <script src="js/index.js"></script>
+   <!-- tab -->
+   <script src="js/owl.carousel.min.js"></script>
+   <script src="js/cbpFWTabs.js"></script>
+   <script>
+        (function() {
+
+            [].slice.call( document.querySelectorAll( '.tabs' ) ).forEach( function( el ) {
+                new CBPFWTabs( el );
+            });
+ })();
+       
+ $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
+})
+    </script>
    
 </body>
 </html>

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/tab/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="css/tab/demo.css" />
+    <link rel="stylesheet" type="text/css" href="css/tab/tabs.css" />
+    <link rel="stylesheet" type="text/css" href="css/tab/tabstyles.css" />
+    <link rel="stylesheet" href="css/tab/tab.css">
+    <link rel="stylesheet" href="css/tab/owl.carousel.css">
+    <link rel="stylesheet" href="css/tab/owl.theme.default.css">
+    <script src="js/modernizr.custom.js"></script>
+    
+</head>
+<body>
+    <section>
+        <div class="tabs tabs-style-line">
+            <nav>
+                <ul>
+                    <li><a href="#section-line-1">
+                            <div class="tab-div"><img class="img" src="/images/icon/icon1.png" alt="" width="90" height="90"></div>
+                            <div class="tab-div"><p>觀光</p></div>
+                        </a>
+                    </li>
+                    <li><a href="#section-line-1">
+                            <div class="tab-div"><img class="img" src="/images/icon/icon2.png" alt="" width="90" height="90"></div>
+                            <div class="tab-div"><p>水上</p></div></a>
+                    </li>
+                    <li><a href="#section-line-1">
+                            <div class="tab-div"><img class="img" src="/images/icon/icon3.png" alt="" width="90" height="90"></div>
+                            <div class="tab-div"><p>夜遊</p></div>
+                        </a>
+                    </li>
+                    <li><a href="#section-line-1">
+                            <div class="tab-div"><img class="img" src="/images/icon/icon4.png" alt="" width="90" height="90"></div>
+                            <div class="tab-div"><p>文藝</p></div>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="content-wrap">
+                <section id="section-line-1">
+                    <div class="owl-carousel">
+                        <div class="image-box image1">  </div>
+                        <div class="image-box image2">  </div>
+                        <div class="image-box image3">  </div>
+                        <div class="image-box image4">  </div>
+                    </div>
+                </section>
+                <section id="section-line-1">
+                    <div class="owl-carousel">
+                        <div class="image-box image2">  </div>
+                        <div class="image-box image3">  </div>
+                        <div class="image-box image4">  </div>
+                        <div class="image-box image4">  </div>
+                    </div>
+                </section>
+                <section id="section-line-1">
+                    <div class="owl-carousel">
+                        <div class="image-box image4">  </div>
+                        <div class="image-box image3">  </div>
+                        <div class="image-box image2">  </div>
+                        <div class="image-box image1">  </div>
+                    </div>
+                </section>
+                <section id="section-line-1">
+                    <div class="owl-carousel">
+                        <div class="image-box image3">  </div>
+                        <div class="image-box image2">  </div>
+                        <div class="image-box image1">  </div>
+                        <div class="image-box image4">  </div>
+                    </div>
+                </section>
+                <section id="section-line-1"><p>5</p></section>
+            </div><!-- /content -->
+        </div><!-- /tabs -->
+    </section>
+    
+    <!--  -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/cbpFWTabs.js"></script>
+    <script>
+        (function() {
+
+            [].slice.call( document.querySelectorAll( '.tabs' ) ).forEach( function( el ) {
+                new CBPFWTabs( el );
+            });
+ })();
+       
+ $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
+})
+    </script>
+</body>
+</html>

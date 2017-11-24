@@ -1,0 +1,27 @@
+
+.tab-div{
+    display: block;
+    text-align:center;
+}
+.image-box{
+    height: 250px;
+    width: 250px;
+    background-size: contain;
+    background-size:100% 100%;
+    display:block;
+    text-align:center;
+    margin: 15px auto;
+   
+}
+.image1{
+    background-image: url("../../images/new-images/a (1).jpg");
+}
+.image2{
+    background-image: url("../../images/new-images/a (2).jpg");
+}
+.image3{
+    background-image: url("../../images/new-images/a (3).jpg");
+}
+.image4{
+    background-image: url("../../images/new-images/a (4).jpg");
+}
