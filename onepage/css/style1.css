@@ -1,5 +1,7 @@
+
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
 *{
-    font-family:微軟正黑體;
+    font-family:'Noto Sans TC';
 }
 .index-img{
     background-image: url("../images/index-img.jpg");
@@ -10,7 +12,7 @@
     background-position:center;
 }
 .margin-top{
-    margin-top: 30px;
+    margin-top: 15px;
 }
 .span-text{
     font-size: 30px;
@@ -38,7 +40,8 @@
     margin-bottom: 30px;
     padding: 30px;
 }
-@media screen and (max-width:500px) {
+
+@media screen and (max-width:991px) {
     .small-img{
         width: 20vw;
         height:20vh;
@@ -46,4 +49,14 @@
         background-repeat: no-repeat;
         background-position:center;
     }
+    .span{
+        height:96px;
+    }
+    .img-fluid{
+        /* width: 250px;
+        height: 250px; */
+        position: relative;
+        left: 20%;
+    }
 }
+    
