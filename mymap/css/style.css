@@ -1,0 +1,65 @@
+html{
+    height: 1000px;
+}
+*{
+    font-family: 微軟正黑體 ;
+}
+.headertop{
+    background-image: url('../images/bg01.jpg');
+    width: 100%;
+    height: 540px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.container-fluid{
+    padding: 0px;
+}
+.headtext{
+    text-align: center;
+    margin: 0 auto;
+    line-height: 540px;
+}
+.headtext p{
+    color:white;
+    font-size:2em;
+    letter-spacing: 10px;
+    font-weight: bold;
+}
+.navbar-brand span{
+    font-weight: bold;
+}
+.card-body .titletext{
+    color: black;
+    font-weight: bold;
+    font-size: 1em;
+}
+.card-body .context{
+    color: rgb(41, 41, 41);
+    font-size: 0.5em;
+    margin-top: -15px;
+}
+.col-6{
+    padding: 0px;
+}
+.container{
+    text-align: center;
+}
+.accordion{
+    overflow: hidden;
+}
+.card{
+    border:0.5px solid rgb(184, 184, 184);
+    
+}
+.card button{
+    font-weight: bold;
+    color: rgb(44, 44, 44);
+}
+.col-md-6.col-12{
+    padding: 0px;
+}
+.card-header{
+    background-color: rgb(218, 218, 218);
+}
