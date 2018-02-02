@@ -1,136 +1,269 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Mymap</title>
-    <link rel="stylesheet" href="../mymap/css/bootstrap.css">
-    <link rel="stylesheet" href="../mymap/css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Mymap</title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">
-            <img src="../mymap/images/icon.png" width="30" height="30" class="d-inline-block align-top" alt=""><span style="margin-left:10px;">設計工具地圖</span></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent"></div>
-     </nav>
-     <div class="container-fluid">
-         <div class="headertop">
-            <div class="headtext">
-                <p>設計工具地圖</p>
-            </div>
-        </div>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">
+      <img src="images/icon.png" width="30" height="30" class="d-inline-block align-top" alt="">
+      <span style="margin-left:10px;">設計工具地圖</span>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent"></div>
+  </nav>
+  <div class="container-fluid">
+    <div class="headertop">
+      <div class="headtext">
+        <p>設計工具地圖</p>
+      </div>
     </div>
-    <div class="container" style="margin-top:20px;">
-            <div class="row">
-                <!--    左邊      -->
-              <div class="col-md-6 col-12">
-                    <div id="accordion">
-                            <div class="card button-style">
-                              <div class="card-header" id="headingOne">
-                                <h5 class="mb-0">
-                                  <button class="btn btn-link " data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                    設計資源
-                                  </button>
-                                </h5>
-                              </div>
-                          
-                              <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
-                                <div class="card-body">
-                                    <a href=""><p class="titletext">設計達人</p> <p class="context">有一些設計文章、工具類</p></a>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="card">
-                              <div class="card-header" id="headingTwo">
-                                <h5 class="mb-0">
-                                  <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                    動畫資源
-                                  </button>
-                                </h5>
-                              </div>
-                              <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-                                <div class="card-body">
-                                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                                </div>
-                              </div>
-                            </div>
-                            <div class="card">
-                              <div class="card-header" id="headingThree">
-                                <h5 class="mb-0">
-                                  <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                    靈感
-                                  </button>
-                                </h5>
-                              </div>
-                              <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-                                <div class="card-body">
-                                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-              </div>
-              <!--    右邊      -->
-              <div class="col-md-6 col-12">
-                    <div id="accordion">
-                            <!--上面-->
-                            <div class="card">
-                              <div class="card-header" id="heading1">
-                                <h5 class="mb-0">
-                                  <button class="btn btn-link" data-toggle="collapse" data-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
-                                    前端資源
-                                  </button>
-                                </h5>
-                              </div>
-                              <!--下面-->
-                              <div id="collapse1" class="collapse" aria-labelledby="heading1" data-parent="#accordion">
-                                <div class="card-body">
-                                  <a href=""><p class="titletext">設計達人</p> <p class="context">有一些設計文章、工具類</p></a>
-                                   
-                                </div>
-                              </div>
-                            </div>
-                            <!--上面-->
-                            <div class="card">
-                              <div class="card-header" id="heading2">
-                                <h5 class="mb-0">
-                                  <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
-                                    網頁效果
-                                  </button>
-                                </h5>
-                              </div>
-                            <!--下面-->
-                              <div id="collapse2" class="collapse" aria-labelledby="heading2" data-parent="#accordion">
-                                <div class="card-body">
-                                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                                </div>
-                              </div>
-                            </div>
-                            <div class="card">
-                              <div class="card-header" id="heading3">
-                                <h5 class="mb-0">
-                                  <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
-                                    圖庫
-                                  </button>
-                                </h5>
-                              </div>
-                              <div id="collapse3" class="collapse" aria-labelledby="heading3" data-parent="#accordion">
-                                <div class="card-body">
-                                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                                </div>
-                              </div>
-                            </div>
-                          </div>
+  </div>
+  <div class="container" style="margin:30px auto;">
+    <div class="row">
+      <!--    左邊      -->
+      <div class="col-md-6 col-12">
+        <div id="accordion">
+          <div class="card button-style">
+            <div class="card-header" id="headingOne">
+              <h5 class="mb-0">
+                <button class="btn btn-link " data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                  設計資源
+                </button>
+              </h5>
+            </div>
+
+            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+              <div class="card-body">
+                <a href="">
+                  <p class="titletext">設計達人</p>
+                  <p class="context">有一些設計文章、工具類</p>
+                </a>
+                <a href="http://www.ui.cn/">
+                  <p class="titletext">UI中國</p>
+                  <p class="context">有一些設計文章、工具類</p>
+                </a>
+                <a href="http://www.ui.cn/">
+                  <p class="titletext">Free Graphic Design Tutorials</p>
+                  <p class="context">有些平面設計的教學</p>
+                </a>
               </div>
             </div>
-         
-     </div>
-    <script src="../mymap/js/jquery-3.2.1.js"></script>
-    <script src="../mymap//js/popper.min.js"></script>
-    <script src="../mymap//js/bootstrap.js"></script>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingTwo">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  動畫資源
+                </button>
+              </h5>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+              <div class="card-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute,
+                non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
+                sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh
+                helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher
+                vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't
+                heard of them accusamus labore sustainable VHS.
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingThree">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  靈感
+                </button>
+              </h5>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+              <div class="card-body">
+                <a href="http://www.topys.cn/">
+                  <p class="titletext">創意人平台</p>
+                  <p class="context">一些廣告創意</p>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="heading4">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                  字體
+                </button>
+              </h5>
+            </div>
+            <div id="collapse4" class="collapse" aria-labelledby="heading4" data-parent="#accordion">
+              <div class="card-body">
+                <a href="https://goo.gl/aGQTbz">
+                  <p class="titletext">十種平面設計用英文字體</p>
+                  <p class="context">有一些設計文章、工具類</p>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="card button-style">
+            <!---->
+            <div class="card-header" id="heading6">
+              <h5 class="mb-0">
+                <button class="btn btn-link " data-toggle="collapse" data-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
+                  我的前端之路
+                </button>
+              </h5>
+            </div>
+            <div id="collapse6" class="collapse" aria-labelledby="heading6" data-parent="#accordion">
+              <div class="card-body">
+                <a href="https://goo.gl/BLtwB1">
+                  <p class="titletext">如何成為前端工程師</p>
+                  <p class="context">過程</p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <!--    右邊      -->
+      <div class="col-md-6 col-12">
+        <div id="accordion">
+          <!--上面-->
+          <div class="card">
+            <div class="card-header" id="heading1">
+              <h5 class="mb-0">
+                <button class="btn btn-link" data-toggle="collapse" data-target="#collapse1" aria-expanded="false" aria-controls="collapse1">
+                  前端資源
+                </button>
+              </h5>
+            </div>
+            <!--下面-->
+            <div id="collapse1" class="collapse" aria-labelledby="heading1" data-parent="#accordion">
+              <div class="card-body">
+                <a href="https://uigradients.com/#Tranquil">
+                  <p class="titletext">UI漸層色</p>
+                  <p class="context">產生CSS</p>
+                </a>
+                <a href="https://webgradients.com/">
+                  <p class="titletext">itmeo漸層色</p>
+                  <p class="context">另一款產生漸層色的網頁</p>
+                </a>
+                <a href="https://www.draw.io/">
+                  <p class="titletext">Draw.io流程圖</p>
+                  <p class="context">畫流程圖的工具</p>
+                </a>
+                <a href="http://csscoke.com/">
+                  <p class="titletext">CSS可樂</p>
+                  <p class="context">有一些好用的CSS範例</p>
+                </a>
+                <a href="http://csscoke.com/">
+                  <p class="titletext">男丁格爾</p>
+                  <p class="context">有一些好用的學習範例</p>
+                </a>
+
+              </div>
+            </div>
+          </div>
+          <!--上面-->
+          <div class="card">
+            <div class="card-header" id="heading2">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                  網頁效果
+                </button>
+              </h5>
+            </div>
+            <!--下面-->
+            <div id="collapse2" class="collapse" aria-labelledby="heading2" data-parent="#accordion">
+              <div class="card-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute,
+                non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
+                sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh
+                helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher
+                vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't
+                heard of them accusamus labore sustainable VHS.
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="heading3">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                  圖庫
+                </button>
+              </h5>
+            </div>
+            <div id="collapse3" class="collapse" aria-labelledby="heading3" data-parent="#accordion">
+              <div class="card-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute,
+                non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
+                sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh
+                helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher
+                vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't
+                heard of them accusamus labore sustainable VHS.
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="heading5">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+                  應該用的到的地方
+                </button>
+              </h5>
+            </div>
+            <div id="collapse5" class="collapse" aria-labelledby="heading5" data-parent="#accordion">
+              <div class="card-body">
+                <a href="http://www.shejidaren.com/photoshop-text-effects.html">
+                  <p class="titletext">一些字體特效</p>
+                  <p class="context">65个有吸引力的PS文字特效下载</p>
+                </a>
+                <a href="http://www.ui.cn/detail/307044.html">
+                  <p class="titletext">變形美術字設計手冊</p>
+                  <p class="context">字型設計各種方法</p>
+                </a>
+                <a href="https://www.typographicposters.com/posters?r=0&g=0&b=0">
+                  <p class="titletext">海報參考/p>
+                    <p class="context">用顏色找海報</p>
+                </a>
+
+              </div>
+            </div>
+          </div>
+          <div class="card button-style">
+            <!---->
+            <div class="card-header" id="headingOne">
+              <h5 class="mb-0">
+                <button class="btn btn-link " data-toggle="collapse" data-target="#collapse7" aria-expanded="falsw" aria-controls="collapse7">
+                  設計資源
+                </button>
+              </h5>
+            </div>
+            <div id="collapse7" class="collapse" aria-labelledby="heading7" data-parent="#accordion">
+              <div class="card-body">
+                <a href="">
+                  <p class="titletext">設計達人</p>
+                  <p class="context">有一些設計文章、工具類</p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.js"></script>
 </body>
+
 </html>

@@ -1,5 +1,5 @@
 html{
-    height: 1000px;
+    height: auto;
 }
 *{
     font-family: 微軟正黑體 ;
@@ -50,7 +50,8 @@ html{
     overflow: hidden;
 }
 .card{
-    border:0.5px solid rgb(184, 184, 184);
+    border:2px solid rgb(184, 184, 184);
+    margin: 10px;
     
 }
 .card button{
@@ -61,5 +62,5 @@ html{
     padding: 0px;
 }
 .card-header{
-    background-color: rgb(218, 218, 218);
+    background-color: rgb(252, 252, 252);
 }
