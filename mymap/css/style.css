@@ -50,7 +50,7 @@ html{
     overflow: hidden;
 }
 .card{
-    border:2px solid rgb(252, 252, 252);
+    border:2px solid rgb(184, 184, 184);
     margin: 10px;
     
 }
@@ -62,5 +62,5 @@ html{
     padding: 0px;
 }
 .card-header{
-    background-color: rgb(252, 252, 252);
+    background-color: #ffffff;
 }
